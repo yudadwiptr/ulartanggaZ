@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     "Pass and Play",
     "Sky Island Adventure",
   ],
-  authors: [{ name: "Ular TanggaZ Team" }],
-  creator: "Ular TanggaZ",
-  publisher: "Ular TanggaZ",
+  authors: [{ name: "Yuma Studio", url: "https://yumastudio.digital/" }],
+  creator: "Yuma Studio",
+  publisher: "Yuma Studio",
   alternates: {
     canonical: "/",
   },

@@ -46,3 +46,8 @@ Salin `.env.example` menjadi `.env.local` dan isi kredensial project Supabase mi
 NEXT_PUBLIC_SUPABASE_URL=https://your-project-id.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 ```
+
+---
+
+Built by [Yuma Studio](https://yumastudio.digital/)
+

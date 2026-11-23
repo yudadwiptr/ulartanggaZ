@@ -832,6 +832,21 @@ export default function UlarTanggaZPage() {
         </div>
       </div>
 
+      {/* Subtle Footer Credit */}
+      <footer className="max-w-[1440px] mx-auto px-4 pt-6 pb-4 text-center">
+        <span className="inline-flex items-center gap-1.5 rounded-full bg-white/80 border border-slate-900/10 px-3.5 py-1.5 text-[11px] font-extrabold text-slate-500">
+          Built by{" "}
+          <a
+            href="https://yumastudio.digital/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-emerald-700 hover:text-emerald-600 underline underline-offset-2 font-black"
+          >
+            yumastudio.digital
+          </a>
+        </span>
+      </footer>
+
       {/* Dynamic Weather Wheel Modal */}
       <WeatherWheelModal
         isOpen={gameState.turnPhase === "WEATHER_SPIN"}

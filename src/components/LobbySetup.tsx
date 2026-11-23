@@ -1335,6 +1335,21 @@ export default function LobbySetup({
           </div>
         </div>
       </section>
+
+      {/* Footer Attribution */}
+      <footer className="max-w-[1440px] mx-auto px-4 sm:px-8 pb-8 text-center">
+        <div className="inline-flex items-center gap-2 rounded-full bg-white/90 backdrop-blur-sm border-2 border-slate-900/15 px-4 py-2 shadow-sm text-xs font-extrabold text-slate-600">
+          <span>Built by</span>
+          <a
+            href="https://yumastudio.digital/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-emerald-700 hover:text-emerald-600 underline decoration-2 underline-offset-2 font-black transition-colors"
+          >
+            yumastudio.digital
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
