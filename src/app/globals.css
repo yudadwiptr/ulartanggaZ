@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-sky: #e0f2fe;
+  --bg-light: #f8fafc;
+}
+
+body {
+  background: linear-gradient(180deg, #7dd3fc 0%, #bae6fd 26%, #e0f2fe 58%, #f8fafc 100%);
+  color: #0f172a;
+  min-height: 100dvh;
+  font-family: "Nunito", ui-rounded, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: "Fredoka", "Nunito", ui-rounded, sans-serif;
+}
+
+/* Hide scrollbars on mobile horizontal carousels while keeping smooth touch scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+@keyframes floatSlow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes cloudDrift {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(26px);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.animate-cloud-drift {
+  animation: cloudDrift 14s ease-in-out infinite;
+}
